@@ -6,9 +6,10 @@ Requirements : Tensorflow 2.3 , Python 3.7
 
 ### Steps to reproduce the results:
 1. Clone the repository.
-2. Download the object detector weights and configuration file from: https://pjreddie.com/darknet/yolo/ and classifier model from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing
+2. Download the object detector weights and configuration file from: https://pjreddie.com/darknet/yolo/ 
+3. Use classifier model 'model.h5' from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing or train using traffic_sign_classifier.py
 
-3. Save all the model and their configuration in Models folder inside the root directory of this repo.
+3. Save all the model and their configuration in 'Models' folder inside the root directory of this repo.
 
 4. Download the carla traffic sign dataset from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing
 
