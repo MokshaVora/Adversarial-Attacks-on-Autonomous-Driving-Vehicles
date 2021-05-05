@@ -4,7 +4,7 @@ The repository consits of notebooks to create generator using several method and
 
 Requirements : Tensorflow 2.3 , Python 3.7
 
-###Steps to reproduce the results:
+### Steps to reproduce the results:
 1. Clone the repository.
 2. Download the object detector weights and configuration file from: https://pjreddie.com/darknet/yolo/ and classifier model from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing
 
