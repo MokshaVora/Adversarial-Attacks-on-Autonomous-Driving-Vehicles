@@ -11,9 +11,16 @@ Requirements : Tensorflow 2.3 , Python 3.7
 4. Save all the model and their configuration in 'Models' folder inside the root directory of this repo.
 5. Download the carla traffic sign dataset from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing
 6. Save all the dataset in Dataset/ folder inside the root directory of this repo
-7. There are three ways to create the generator.
+7.  Download the images of Carla simulator world from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing
+8.  Create 2 empty folders named: 'NoisySigns' and 'AdvImages'.
+
+For GAN:
+1. There are three ways to create the generator:
     i) Creating the generator by alt opt optimization algorithm along the two objective. 
-    ii) Creating the generator by joint training both objective simultaneously.
-8. Train the GAN model and save the generator.
-9. Download the images of Carla simulator world from: https://drive.google.com/drive/folders/14RPRSCZJjYF0VZ-thy-JCeelFlmJnre_?usp=sharing
-10. Use the generator created by GAN for Adversarial Attack Testing. 
+    ii) Creating the generator by joint training both objective simultaneously. 
+2. Train the GAN model and save the generator using 'GAN_Alt_Opt_Train.ipynb' or 'GAN_Joint_train.ipynb'.
+3. For Adversarial Attack Testing run 'Adversarial_Attack_Testing_GAN.ipynb' file.
+
+For CNN: 
+1. Generate noise for every class using 'Adversarial_CNN.ipynb'.
+2. For Adversarial Attack Testing run 'Adversarial_Attack_Testing_CNN.ipynb' file.
